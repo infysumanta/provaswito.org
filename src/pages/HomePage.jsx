@@ -1,11 +1,14 @@
 import React from "react";
+import MainBanner from "../components/HomePage/MainBanner";
 import Layout from "../components/Layout/Layout";
 
 const HomePage = () => {
   return (
-    <div>
-      <Layout>HomePage</Layout>
-    </div>
+    <>
+      <Layout>
+        <MainBanner />
+      </Layout>
+    </>
   );
 };
 
