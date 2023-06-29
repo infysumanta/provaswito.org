@@ -1,8 +1,9 @@
 const express = require("express");
 const path = require("path");
+require("dotenv").config();
 const app = express();
 
-const PORT = process.env.PORT || 5000;
+const port = process.env.PORT || 5000;
 
 app.set("view engine", "ejs");
 app.use(express.static("public"));
@@ -28,6 +29,6 @@ app.get("/news-paper-cover", function (_req, res) {
   res.render("news-paper-cover");
 });
 
-app.listen(PORT, () => {
-  console.log(`Server listening on port ${PORT}`);
+app.listen(port, () => {
+  console.log(`Server listening on port ${port}`);
 });
