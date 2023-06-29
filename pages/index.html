@@ -1,0 +1,1624 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Provaswito - Home</title>
+    <link
+  rel="icon"
+  href="front/images/fevicon/cropped-aaaa-32x32.png"
+  sizes="32x32"
+/>
+<link
+  rel="icon"
+  href="front/images/fevicon/cropped-aaaa-192x192.png"
+  sizes="192x192"
+/>
+<link
+  rel="apple-touch-icon-precomposed"
+  href="front/images/fevicon/cropped-aaaa-180x180.png"
+/>
+<meta
+  name="msapplication-TileImage"
+  content="front/images/fevicon/cropped-aaaa-270x270.png"
+/>
+<link rel="stylesheet" href="front/css/bootstrap.min.css" />
+<link rel="stylesheet" href="front/css/owl.carousel.css" />
+<link rel="stylesheet" href="front/css/owl.theme.css" />
+<link rel="stylesheet" href="front/css/style.css" />
+<link rel="stylesheet" href="css/bootstrapValidator.min.css" />
+<link rel="stylesheet" href="css/jquery-confirm.min.css" />
+<!-- <link rel='stylesheet' href='./css/font-awesome.min.css'> -->
+<link
+  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+  rel="stylesheet"
+  integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+  crossorigin="anonymous"
+/>
+  </head>
+  <body>
+    <div class="loader" style="display: none">Loading&#8230;</div>
+<div class="" id="toppointer"></div>
+<header>
+  <nav
+    class="navbar navbar-expand-lg navbar-light fixed-top"
+    style="opacity: 1; background: #ffa707"
+  >
+    <a class="navbar-brand d-lg-none" href="#">
+      <img
+        src="front/images/logo.png"
+        style="width: 100px; height: auto"
+        alt="logo"
+      />
+    </a>
+
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarToggle"
+      aria-controls="navbarToggle"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div
+      class="collapse navbar-collapse justify-content-between"
+      id="navbarToggle"
+    >
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="/"
+            ><i class="fa fa-home"></i>&nbsp;Home
+            <span class="sr-only">(current)</span></a
+          >
+        </li>
+
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdown"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            <i class="fa fa-calendar" aria-hidden="true"></i> Events
+          </a>
+          <div
+            class="dropdown-menu bg-warning"
+            aria-labelledby="navbarDropdown"
+          >
+            <a class="dropdown-item" href="workshop"
+              ><i class="fa fa-free-code-camp" aria-hidden="true"></i>
+              Workshop</a
+            >
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="art-exhibition"
+              ><i class="fa fa-trello" aria-hidden="true"></i> Art Exhibition</a
+            >
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="cultural-program"
+              ><i
+                class="fa fa-american-sign-language-interpreting"
+                aria-hidden="true"
+              ></i>
+              Cultural Program</a
+            >
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="other-event"
+              ><i class="fa fa-book" aria-hidden="true"></i> Other Event</a
+            >
+          </div>
+        </li>
+
+        <!--<li class="nav-item dropdown">-->
+        <!--    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
+        <!--        <i class="fa fa-user-plus"></i>&nbsp; Registration-->
+        <!--    </a>-->
+        <!--    <div class="dropdown-menu bg-warning" aria-labelledby="navbarDropdown">-->
+
+        <!--        <a class="dropdown-item" href="index">International Art Exhibition, 2020</a>-->
+        <!--<div class="dropdown-divider"></div>-->
+        <!--<a class="dropdown-item" href="register/hey-nutan">হে নূতন (Hey Nutan)</a>-->
+
+        <!--    </div>-->
+        <!--</li>-->
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdown"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            <i class="fa fa-newspaper-o" aria-hidden="true"></i> News Cover
+          </a>
+          <div
+            class="dropdown-menu bg-warning"
+            aria-labelledby="navbarDropdown"
+          >
+            <a class="dropdown-item" href="news-tv-cover"
+              ><i class="fa fa-television" aria-hidden="true"></i> News TV
+              Cover</a
+            >
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="news-paper-cover"
+              ><i class="fa fa-newspaper-o" aria-hidden="true"></i> News Paper
+              Cover</a
+            >
+          </div>
+        </li>
+      </ul>
+      <a class="navbar-brand d-none d-lg-block text-center main-logo" href="#">
+        <!-- Provaswito<br/>Logo -->
+        <img
+          src="front/images/logo.png"
+          style="width: 125px; height: auto"
+          alt="logo"
+        />
+      </a>
+      <ul class="navbar-nav">
+        <!-- <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdown"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            <i class="fa fa-trophy" aria-hidden="true"></i> Results
+          </a>
+          <div
+            class="dropdown-menu bg-warning"
+            aria-labelledby="navbarDropdown"
+          >
+            <a class="dropdown-item" href="hey-nutan-result">
+              <i class="fa fa-music" aria-hidden="true"></i>
+              Hey Nutan Result 2020
+            </a>
+
+            <a class="dropdown-item" href="drawing-competition-result">
+              <i class="fa fa-image" aria-hidden="true"></i> Drawing Competition
+              2020</a
+            >
+
+            <a class="dropdown-item" href="index">
+              <i class="fa fa-trello" aria-hidden="true"></i>
+              International Online Art Exhibition, 2020
+            </a>
+          </div>
+        </li> -->
+
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdown"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            <i class="fa fa-life-ring" aria-hidden="true"></i> About Us
+          </a>
+          <div
+            class="dropdown-menu bg-warning"
+            aria-labelledby="navbarDropdown"
+          >
+            <a class="dropdown-item" href="#mentor">
+              <i class="fa fa-comments-o" aria-hidden="true"></i>
+              Our Mentors
+            </a>
+
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#team">
+              <i class="fa fa-users" aria-hidden="true"></i> Our Team</a
+            >
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">
+            <i class="fa fa-envelope" aria-hidden="true"></i> Contact Us</a
+          >
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<br />
+ <div class="container-fluid slilder" style="background: cornsilk">
+  <div class="row">
+    <div class="col-sm-10 offset-sm-1">
+      <br />
+      <br />
+      <div
+        id="owl-demo"
+        class="owl-carousel owl-theme"
+        style="box-shadow: 0px 0px 2px 0px black"
+      >
+        <div class="item"><img src="front/images/slider/1.jpg" alt="1" /></div>
+        <div class="item"><img src="front/images/slider/2.jpg" alt="1" /></div>
+        <div class="item"><img src="front/images/slider/3.jpg" alt="1" /></div>
+        <div class="item"><img src="front/images/slider/4.jpg" alt="1" /></div>
+        <div class="item"><img src="front/images/slider/5.jpg" alt="1" /></div>
+        <div class="item"><img src="front/images/slider/6.jpg" alt="1" /></div>
+        <div class="item"><img src="front/images/slider/7.jpg" alt="1" /></div>
+        <div class="item"><img src="front/images/slider/8.jpg" alt="1" /></div>
+      </div>
+    </div>
+  </div>
+</div>
+    <section id="about" style="background: cornsilk">
+  <div class="container-fluid">
+    <div class="text-center">
+      <h2>About Provaswito</h2>
+    </div>
+    <br />
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-1"></div>
+      <div class="col-xs-12 col-sm-12 col-md-4">
+        <img
+          src="front/images/home/tour-icon.png"
+          width="100%"
+          class="img-responsive"
+          alt=""
+        />
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-6 about-text">
+        <span class="dropcap">P</span>rovaswito started its journey in 2011 with
+        some of the young, eloquent, aspired artists and they started organizing
+        yearly exhibitions contexting painting, sculpture and photography, every
+        year in occasion of basant Panchami or Saraswati Puja. It germinated in
+        the enriched soil of Hetampur, Birbhum (land of pride), WB. Many artists
+        from the different countries across the world register their names for
+        participation and they also encourage and appreciate such efforts. It is
+        still growing year after year with the efforts and inclinations towards
+        its betterment and radiates as today’s Provaswito, a spirited centre for
+        cultivating fine arts and an organization of young, devoted, dedicated,
+        determined artists, cordially nurturing art and culture.
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-1"></div>
+    </div>
+  </div>
+</section>
+ <section
+  id="gallery"
+  style="background: #cddc391f; border-top: 1px solid rgb(243, 208, 208)"
+>
+  <div class="container">
+    <div class="text-center">
+      <h2>Gallery</h2>
+      <div class="row">
+        <div class="col-sm-10 offset-sm-1">
+          <div class="row">
+            <div class="col-sm-10 offset-sm-1">
+              <button class="btn btn-primary m-1" id="all">All</button>&nbsp;
+              <button class="btn btn-primary m-1" id="exhibition">
+                Art Exhibition</button
+              >&nbsp;
+              <button class="btn btn-primary m-1" id="workshop">Workshop</button
+              >&nbsp;
+              <button class="btn btn-primary m-1" id="cultural">
+                Cultural Program</button
+              >&nbsp;
+              <button class="btn btn-primary m-1" id="news">News Cover</button
+              >&nbsp;
+              <button class="btn btn-primary m-1" id="event">Event</button
+              >&nbsp;
+            </div>
+          </div>
+          <div class="row">
+            <a
+              class="col-xs-6 col-sm-3 col-md-3 galleryimage exhibition"
+              href=""
+              data-toggle="modal"
+              id="image1"
+              data-target="#imageModel1"
+            >
+              <img
+                src="front/images/gallery/exhibition/1.jpg"
+                width="100%"
+                height="100%"
+                class="img-responsive"
+                alt=""
+              />
+            </a>
+            <a
+              class="col-xs-6 col-sm-3 col-md-3 galleryimage exhibition"
+              href=""
+              data-toggle="modal"
+              id="image2"
+              data-target="#imageModel2"
+            >
+              <img
+                src="front/images/gallery/exhibition/2.jpg"
+                width="100%"
+                height="100%"
+                class="img-responsive"
+                alt=""
+              />
+            </a>
+            <a
+              class="col-xs-6 col-sm-3 col-md-3 galleryimage exhibition"
+              href=""
+              data-toggle="modal"
+              id="image3"
+              data-target="#imageModel3"
+            >
+              <img
+                src="front/images/gallery/exhibition/3.jpg"
+                width="100%"
+                height="100%"
+                class="img-responsive"
+                alt=""
+              />
+            </a>
+            <a
+              class="col-xs-6 col-sm-3 col-md-3 galleryimage exhibition"
+              href=""
+              data-toggle="modal"
+              id="image4"
+              data-target="#imageModel4"
+            >
+              <img
+                src="front/images/gallery/exhibition/4.jpg"
+                width="100%"
+                height="100%"
+                class="img-responsive"
+                alt=""
+              />
+            </a>
+            <a
+              class="col-xs-6 col-sm-3 col-md-3 galleryimage exhibition"
+              href=""
+              data-toggle="modal"
+              id="image5"
+              data-target="#imageModel5"
+            >
+              <img
+                src="front/images/gallery/exhibition/5.jpg"
+                width="100%"
+                height="100%"
+                class="img-responsive"
+                alt=""
+              />
+            </a>
+            <a
+              class="col-xs-6 col-sm-3 col-md-3 galleryimage exhibition"
+              href=""
+              data-toggle="modal"
+              id="image6"
+              data-target="#imageModel6"
+            >
+              <img
+                src="front/images/gallery/exhibition/6.jpg"
+                width="100%"
+                height="100%"
+                class="img-responsive"
+                alt=""
+              />
+            </a>
+
+            <a
+              class="col-xs-6 col-sm-3 col-md-3 galleryimage workshop"
+              href=""
+              data-toggle="modal"
+              id="image7"
+              data-target="#imageModel7"
+            >
+              <img
+                src="front/images/gallery/workshop/1.jpg"
+                width="100%"
+                height="100%"
+                class="img-responsive"
+                alt=""
+              />
+            </a>
+            <a
+              class="col-xs-6 col-sm-3 col-md-3 galleryimage workshop"
+              href=""
+              data-toggle="modal"
+              id="image8"
+              data-target="#imageModel8"
+            >
+              <img
+                src="front/images/gallery/workshop/2.jpg"
+                width="100%"
+                height="100%"
+                class="img-responsive"
+                alt=""
+              />
+            </a>
+            <a
+              class="col-xs-6 col-sm-3 col-md-3 galleryimage workshop"
+              href=""
+              data-toggle="modal"
+              id="image9"
+              data-target="#imageModel9"
+            >
+              <img
+                src="front/images/gallery/workshop/3.jpg"
+                width="100%"
+                height="100%"
+                class="img-responsive"
+                alt=""
+              />
+            </a>
+            <a
+              class="col-xs-6 col-sm-3 col-md-3 galleryimage cultural"
+              href=""
+              data-toggle="modal"
+              id="image10"
+              data-target="#imageModel10"
+            >
+              <img
+                src="front/images/gallery/cultural/1.jpg"
+                width="100%"
+                height="100%"
+                class="img-responsive"
+                alt=""
+              />
+            </a>
+            <a
+              class="col-xs-6 col-sm-3 col-md-3 galleryimage cultural"
+              href=""
+              data-toggle="modal"
+              id="image11"
+              data-target="#imageModel11"
+            >
+              <img
+                src="front/images/gallery/cultural/2.jpg"
+                width="100%"
+                height="100%"
+                class="img-responsive"
+                alt=""
+              />
+            </a>
+            <a
+              class="col-xs-6 col-sm-3 col-md-3 galleryimage newscover"
+              href=""
+              data-toggle="modal"
+              id="image12"
+              data-target="#imageModel12"
+            >
+              <img
+                src="front/images/gallery/newscover/1.jpg"
+                width="100%"
+                height="100%"
+                class="img-responsive"
+                alt=""
+              />
+            </a>
+            <a
+              class="col-xs-6 col-sm-3 col-md-3 galleryimage newscover"
+              href=""
+              data-toggle="modal"
+              id="image13"
+              data-target="#imageModel13"
+            >
+              <img
+                src="front/images/gallery/newscover/2.jpg"
+                width="100%"
+                height="100%"
+                class="img-responsive"
+                alt=""
+              />
+            </a>
+            <a
+              class="col-xs-6 col-sm-3 col-md-3 galleryimage newscover"
+              href=""
+              data-toggle="modal"
+              id="image14"
+              data-target="#imageModel14"
+            >
+              <img
+                src="front/images/gallery/newscover/3.jpg"
+                width="100%"
+                height="100%"
+                class="img-responsive"
+                alt=""
+              />
+            </a>
+            <a
+              class="col-xs-6 col-sm-3 col-md-3 galleryimage event"
+              href=""
+              data-toggle="modal"
+              id="image15"
+              data-target="#imageModel15"
+            >
+              <img
+                src="front/images/gallery/event/1.jpg"
+                width="100%"
+                height="100%"
+                class="img-responsive"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br />
+  </div>
+</section>
+ <section id="timeline" style="background: #b7abe40d">
+  <div class="container-fluid">
+    <div class="text-center">
+      <h2>Timeline Event</h2>
+    </div>
+    <div class="container-fluid mt-5 mb-5">
+      <div class="row">
+        <div class="col-md-10 offset-md-1">
+          <ul class="timeline">
+            <a
+              target="_blank"
+              style="padding-left: 20px; font-size: 20px; font-weight: bold"
+              >Event Name and Location</a
+            >
+            <a
+              class="float-right date"
+              style="padding-left: 20px; font-size: 20px; font-weight: bold"
+              ><i class="fa fa-calendar" aria-hidden="true"></i> Date</a
+            >
+
+            <br />
+            <hr />
+            <li>
+              <a href="art-exhibition">1. Hetampur Art Exhibition, 2014</a>
+              <a class="float-right date-text">2014</a>
+
+              <p>
+                <b><i>National Level Art Exhibition</i></b> <br />
+                <b>Participants from</b> - India. <br />
+                <b>Place</b> – Hetampur
+              </p>
+            </li>
+            <br />
+            <hr />
+            <li>
+              <a href="workshop">2. Photography Workshop, 2018</a>
+              <a class="float-right date-text">21st January 2018</a>
+              <p>
+                <b>Instructor</b> - Samiran Nandy. <br />
+                <b>Participants from</b> - West Bengal (India). <br />
+                <b>Place</b> – Hetampur
+              </p>
+            </li>
+            <br />
+            <hr />
+            <li>
+              <a href="art-exhibition">3. Hetampur Art Exhibition, 2018</a>
+              <a class="float-right date-text"
+                >22nd January 2018 to 26th January 2018</a
+              >
+              <p>
+                <b><i>First International Art Exhibition</i></b>
+                <br />
+                <b>Participants from</b> - India, Bangladesh, New York,
+                Thailand. <br />
+                <b>Place</b> – Hetampur
+              </p>
+            </li>
+            <br />
+            <hr />
+            <li>
+              <a href="art-exhibition">4. Academy of Fine Arts</a>
+              <a class="float-right date-text"
+                >19th June 2018 to 25th June 2018</a
+              >
+              <p>
+                <b>Participants from</b> - India, Bangladesh, New York. <br />
+                <b>Place</b> – Academy of Fine Arts, Kolkata
+              </p>
+            </li>
+            <br />
+            <hr />
+            <li>
+              <a href="art-exhibition"
+                >5. International Winter art Exhibition</a
+              >
+              <a class="float-right date-text"
+                >5th December 2018 to 11th December 2018</a
+              >
+              <p>
+                <b>Participants from</b> - India, Bangladesh.<br />
+                <b>Place</b> – Nazrul Tirtha (Ground Floor), <br />
+                Newtown, Kolkata
+              </p>
+            </li>
+            <br />
+            <hr />
+            <li>
+              <a href="cultural-program">6. Birbhum Shilpo Utshav</a>
+              <a class="float-right date-text"
+                >10th February 2019 to 14th February 2019</a
+              >
+              <p>
+                <b>Participants from</b> - India, Bangladesh, New York. <br />
+                <b>Place</b> – Hetampur, Birbhum.
+              </p>
+            </li>
+            <br />
+            <hr />
+            <li>
+              <a href="workshop">7. National Level Terracotta Workshop 2019</a>
+              <a class="float-right date-text"
+                >11th February 2019 to 12th February</a
+              >
+              <p>
+                <b>Instructor</b> - Tarak Garai.<br />
+                <b>Participants from</b> - India. <br />
+                <b>Place</b> – Hetampur, Birbhum.
+              </p>
+            </li>
+            <br />
+            <hr />
+            <li>
+              <a href="workshop"
+                >8. International Wash Painting Workshop 2019</a
+              >
+              <a class="float-right date-text"
+                >28th August 2019 to 30th August 2019</a
+              >
+              <p>
+                <i><b>The Great Presence of Shri Nandadulal Mukherjee</b></i>
+                <br />(Ex-Principal of Kala-Bhavana, Visva-Bharati)<br />
+                <b>Instructor</b> - Rajib Gain.<br />
+
+                <b>Participants From</b> - India, Bangladesh.<br />
+                <b>Place</b> - Santiniketan, Birbhum
+              </p>
+            </li>
+            <br />
+            <hr />
+            <li>
+              <a href="other-event"
+                >9. Nimagna-Bhuvan School of Art & Craft Official Opening</a
+              >
+              <a class="float-right date-text">2019</a>
+              <p>
+                <i><b></b></i> <br /><br />
+              </p>
+            </li>
+            <hr />
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ <section id="mentor" style="background: #cddc391f">
+  <div class="container">
+    <div class="text-center">
+      <h2>Mentor</h2>
+    </div>
+    <div class="row">
+      <div class="col-sm-10 offset-sm-1">
+        <div class="row">
+          <div class="col-xs-12 col-sm-4 col-md-4 mentorimage">
+            <img
+              src="front/images/mentor/tarak-garai.jpg"
+              width="100%"
+              height="270px"
+              class="img-responsive"
+              alt=""
+            />
+            <div class="text-center mentorname">MR. TARAK GARAI</div>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-4 mentorimage">
+            <img
+              src="front/images/mentor/samiran-nandy.jpg"
+              width="100%"
+              height="280px"
+              class="img-responsive"
+              alt=""
+            />
+            <div class="text-center mentorname">MR. SAMIRAN NANDY</div>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-4 mentorimage">
+            <img
+              src="front/images/mentor/wasim-kapoor.jpg"
+              width="100%"
+              height="280px"
+              class="img-responsive"
+              alt=""
+            />
+            <div class="text-center mentorname">MR. WASHIM KAPOOR</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ <section id="team" style="background: #b7abe40d">
+  <div class="container">
+    <div class="text-center">
+      <h2>Meet the Team</h2>
+    </div>
+    <div class="row">
+      <div class="col-sm-6 offset-sm-3">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-md-6 mentorimage">
+            <img
+              src="front/images/team/jit-ganguly-918x1024.jpg"
+              height="270px"
+              width="90%"
+              class="img-responsive"
+              alt=""
+            />
+            <div class="text-center mentorname">
+              Jit Ganguly<br />
+              <span style="font-size: 18px">(Founder, Director)</span>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 mentorimage">
+            <img
+              src="front/images/team/chandan-karmakar-700x1024.jpg"
+              height="270px"
+              width="75%"
+              class="ml-4 img-responsive"
+              alt=""
+            />
+            <div class="text-center mentorname">
+              Chandan Karmakar<br />
+              <span style="font-size: 18px"> (Joint Director)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <section id="mission" style="background:#e8f7e891; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">
+        <div class="container">
+            <div class="text-center">
+                <p><img src="front/images/home/clients.png" class="img-responsive" alt=""></p>
+                <h2><strong>Mission and Vision</h2></strong>
+            </div>
+
+            <p class="text-center" style="font-size:25px;">
+                Provaswito intend to explore itself as a platform promote new artists in world’s art fraternity.
+            </p>
+
+        </div>
+    </section> <div
+  class="col-sm-12 text-center bottom-separator"
+  style="background: #cddc391f"
+>
+  <img
+    src="front/images/home/under.png"
+    class="img-responsive inline"
+    style="width: 80%"
+    alt=""
+  />
+</div>
+ <section id="contact" style="background: #cddc391f">
+  <div class="container">
+    <div class="text-center">
+      <h2>Contact Details</h2>
+    </div>
+    <br />
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-6">
+        <h3>Address</h3>
+        <address>
+          <span style="font-size: 20px; font-weight: bold"
+            >Provaswito Academy of Art and Culture</span
+          ><br />
+          <span style="font-size: 15px"
+            ><i class="fa fa-dot-circle-o" aria-hidden="true"></i> Ganguly Para,
+            Hetampur</span
+          ><br />
+          <span style="font-size: 15px"
+            ><i class="fa fa-location-arrow" aria-hidden="true"></i> Birbhum-
+            731124</span
+          ><br />
+          <span style="font-size: 15px">
+            <i class="fa fa-map-marker" aria-hidden="true"></i> West
+            Bengal</span
+          ><br />
+          <span style="font-size: 15px">
+            <i class="fa fa-map-marker" aria-hidden="true"></i> India</span
+          ><br />
+        </address>
+        <h3>Contact</h3>
+        <address>
+          <span style="font-size: 15px"
+            ><i class="fa fa-at" aria-hidden="true"></i>&nbsp;
+            provaswito@gmail.com</span
+          ><br />
+          <span style="font-size: 15px"
+            ><i class="fa fa-phone" aria-hidden="true"></i> &nbsp;+919064166610
+            / +916295978956</span
+          ><br />
+        </address>
+
+        <a href="contact" class="btn btn-primary m-2">
+          <i class="fa fa-envelope"></i>Send Us a Feedback</a
+        >
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-6">
+        <iframe
+          style="
+            box-shadow: 0px 0px 5px 0px #e2e2e2;
+            border: 1px solid black;
+            width: 100%;
+            height: 300px;
+          "
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.1163559919405!2d87.39752391438542!3d23.778870584575426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f75de12c9c8ab7%3A0x3380521acfd18943!2sProvaswito+Academy+of+Art+and+Culture!5e0!3m2!1sen!2sin!4v1561896340332!5m2!1sen!2sin"
+          frameborder="0"
+          allowfullscreen="allowfullscreen"
+        >
+        </iframe>
+      </div>
+    </div>
+  </div>
+</section>
+ <div id="imageModel1" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-lg">
+    <!-- Modal content-->
+    <div class="modal-content" style="background: transparent; border: none">
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <img
+              src="/front/images/gallery/exhibition/1.jpg"
+              width="100%"
+              style="border: 5px solid white"
+              class="img-responsive"
+              alt=""
+            />
+
+            <div class="col-sm-10 text-center offset-1 mt-3">
+              <span class="bg-warning p-2 pictureDes">
+                Hetampur Art Exhibition, 2014
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="imageModel2" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-lg">
+    <!-- Modal content-->
+    <div class="modal-content" style="background: transparent; border: none">
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <img
+              src="/front/images/gallery/exhibition/2.jpg"
+              width="100%"
+              style="border: 5px solid white"
+              class="img-responsive"
+              alt=""
+            />
+
+            <div class="col-sm-10 text-center offset-1 mt-3">
+              <span class="bg-warning p-2 pictureDes">
+                International Art Exhibition, Hetampur, 2018
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="imageModel3" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-lg">
+    <!-- Modal content-->
+    <div class="modal-content" style="background: transparent; border: none">
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <img
+              src="/front/images/gallery/exhibition/3.jpg"
+              width="100%"
+              style="border: 5px solid white"
+              class="img-responsive"
+              alt=""
+            />
+
+            <div class="col-sm-10 text-center offset-1 mt-3">
+              <span class="bg-warning p-2 pictureDes">
+                Academy of Fine Arts, International Art Exhibition Gallery
+                Image, 2018
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="imageModel4" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-lg">
+    <!-- Modal content-->
+    <div class="modal-content" style="background: transparent; border: none">
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <img
+              src="/front/images/gallery/exhibition/4.jpg"
+              width="100%"
+              style="border: 5px solid white"
+              class="img-responsive"
+              alt=""
+            />
+
+            <div class="col-sm-10 text-center offset-1 mt-3">
+              <span class="bg-warning p-2 pictureDes">
+                Winter Art Exhibition, Nazrul Tirtha, 2018
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="imageModel5" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-lg">
+    <!-- Modal content-->
+    <div class="modal-content" style="background: transparent; border: none">
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <img
+              src="/front/images/gallery/exhibition/5.jpg"
+              width="100%"
+              style="border: 5px solid white"
+              class="img-responsive"
+              alt=""
+            />
+
+            <div class="col-sm-10 text-center offset-1 mt-3">
+              <span class="bg-warning p-2 pictureDes">
+                Birbhum Shilpo Utshav, 2019
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="imageModel6" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-lg">
+    <!-- Modal content-->
+    <div class="modal-content" style="background: transparent; border: none">
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <img
+              src="/front/images/gallery/exhibition/6.jpg"
+              width="100%"
+              style="border: 5px solid white"
+              class="img-responsive"
+              alt=""
+            />
+
+            <div class="col-sm-10 text-center offset-1 mt-3">
+              <span class="bg-warning p-2 pictureDes">
+                Birbhum Shilpo Utshav 2019
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="imageModel7" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-lg">
+    <!-- Modal content-->
+    <div class="modal-content" style="background: transparent; border: none">
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <img
+              src="/front/images/gallery/workshop/1.jpg"
+              width="100%"
+              style="border: 5px solid white"
+              class="img-responsive"
+              alt=""
+            />
+
+            <div class="col-sm-10 text-center offset-1 mt-3">
+              <span class="bg-warning p-2 pictureDes">
+                Photography Workshop in 2018 in Winter
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="imageModel8" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-lg">
+    <!-- Modal content-->
+    <div class="modal-content" style="background: transparent; border: none">
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <img
+              src="/front/images/gallery/workshop/2.jpg"
+              width="100%"
+              style="border: 5px solid white"
+              class="img-responsive"
+              alt=""
+            />
+
+            <div class="col-sm-10 text-center offset-1 mt-3">
+              <span class="bg-warning p-2 pictureDes">
+                Terracotta Workshop 2019 in winter
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="imageModel9" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-lg">
+    <!-- Modal content-->
+    <div class="modal-content" style="background: transparent; border: none">
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <img
+              src="/front/images/gallery/workshop/3.jpg"
+              width="100%"
+              style="border: 5px solid white"
+              class="img-responsive"
+              alt=""
+            />
+
+            <div class="col-sm-10 text-center offset-1 mt-3">
+              <span class="bg-warning p-2 pictureDes">
+                Wash Painting Workshop 2019 in Monsoon
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="imageModel10" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-lg">
+    <!-- Modal content-->
+    <div class="modal-content" style="background: transparent; border: none">
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <img
+              src="/front/images/gallery/cultural/1.jpg"
+              width="100%"
+              style="border: 5px solid white"
+              class="img-responsive"
+              alt=""
+            />
+
+            <div class="col-sm-10 text-center offset-1 mt-3">
+              <span class="bg-warning p-2 pictureDes">
+                Folk Group Performance
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="imageModel11" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-lg">
+    <!-- Modal content-->
+    <div class="modal-content" style="background: transparent; border: none">
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <img
+              src="/front/images/gallery/cultural/2.jpg"
+              width="100%"
+              style="border: 5px solid white"
+              class="img-responsive"
+              alt=""
+            />
+
+            <div class="col-sm-10 text-center offset-1 mt-3">
+              <span class="bg-warning p-2 pictureDes">
+                Classical Song Performance
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="imageModel12" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-lg">
+    <!-- Modal content-->
+    <div class="modal-content" style="background: transparent; border: none">
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <img
+              src="/front/images/gallery/newscover/1.jpg"
+              width="100%"
+              style="border: 5px solid white"
+              class="img-responsive"
+              alt=""
+            />
+
+            <div class="text-center offset-1 mt-3">
+              <span class="bg-warning p-2 pictureDes">
+                Academy of Fine Arts International Art Exhibition, 2018 cover by
+                Durdurshan (Camera Cholche)
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="imageModel13" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-lg">
+    <!-- Modal content-->
+    <div class="modal-content" style="background: transparent; border: none">
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <img
+              src="/front/images/gallery/newscover/2.jpg"
+              width="100%"
+              style="border: 5px solid white"
+              class="img-responsive"
+              alt=""
+            />
+
+            <div class="col-sm-10 text-center offset-1 mt-3">
+              <span class="bg-warning p-2 pictureDes">
+                Arshi TV (Birbhum)| Birbhum Shilpo Utshav, 2019
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="imageModel14" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-lg">
+    <!-- Modal content-->
+    <div class="modal-content" style="background: transparent; border: none">
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <img
+              src="/front/images/gallery/newscover/3.jpg"
+              width="100%"
+              style="border: 5px solid white"
+              class="img-responsive"
+              alt=""
+            />
+
+            <div class="col-sm-10 text-center offset-1 mt-3">
+              <span class="bg-warning p-2 pictureDes">
+                Arshi TV (Birbhum)| Inauguration of Nimognobhaban, 2019
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="imageModel15" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-lg">
+    <!-- Modal content-->
+    <div class="modal-content" style="background: transparent; border: none">
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <img
+              src="/front/images/gallery/event/1.jpg"
+              width="100%"
+              style="border: 5px solid white"
+              class="img-responsive"
+              alt=""
+            />
+
+            <div class="col-sm-10 text-center offset-1 mt-3">
+              <span class="bg-warning p-2 pictureDes">
+                Book Publish. Author Anupam Dutta
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="loginModel" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Login in Provaswito</h4>
+        <button type="button" class="close" data-dismiss="modal">
+          &times;
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-sm-6">
+            <img
+              src="/front/images/home/clients.png"
+              width="80%"
+              class="img-responsive loginleftmodel"
+              alt=""
+            />
+          </div>
+          <div class="col-sm-6">
+            <div class="text-center">
+              <img
+                src="/front/images/logo.png"
+                width="50%"
+                class="img-responsive"
+                alt=""
+              />
+            </div>
+
+            <form>
+              <div class="form-group">
+                <label for="email">Email address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Enter email"
+                />
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="password"
+                  placeholder="Password"
+                />
+              </div>
+
+              <button
+                type="submit"
+                class="btn btn-primary form-inline"
+                style="width: 50%"
+              >
+                Login</button
+              >&emsp;
+              <button
+                type="submit"
+                class="btn btn-success form-inline"
+                style="width: 40%"
+              >
+                Create Account
+              </button>
+            </form>
+            <div class="mt-3">
+              <a
+                href=""
+                data-toggle="modal"
+                data-target="#forgetPasswordModel"
+                id="forgetlink"
+                >Forget Password! Reset Your Password</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="loadingModel" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-lg">
+    <!-- Modal content-->
+    <div
+      class="modal-content"
+      style="background: transparent; border: none; margin: auto"
+    >
+      <div class="modal-header p-0">
+        <button type="button" class="close" data-dismiss="modal">
+          &times;
+        </button>
+      </div>
+      <div class="modal-body p-0">
+        <div class="row">
+          <div class="col-sm-12 text-center"></div>
+        </div>
+      </div>
+      <div class="modal-footer p-0">
+        <!--<button type="button" id="popupbutton"class="btn btn-info btn-block">Click to Open</button>-->
+        <button
+          type="button"
+          class="btn btn-secondary btn-block"
+          data-dismiss="modal"
+        >
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="forgetPasswordModel" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">
+          &times;
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-sm-8 offset-sm-2">
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="Enter email"
+                />
+              </div>
+
+              <button type="button" class="btn btn-primary" style="width: 100%">
+                Send Link
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+ <footer>
+        <div id="footertop" class="container-fluid">
+            <div class="row p-2">
+                <div class="col-sm-12 text-center">
+                        <span class="text-center" style="font-size:20px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">
+                                Provaswito intend to explore itself as a platform promote new artists in world’s art fraternity.
+                            </span>
+                </div>
+            </div>
+        </div>
+        <section id="footer" style="padding: 20px;">
+            <div class="container">
+                <div class="row text-center text-xs-center text-sm-left text-md-left">
+                    <div class="col-xs-12 col-sm-12 col-md-4">
+                        <h5>About</h5>
+                        <ul class="list-unstyled quick-links">
+                            <li><a href="/mentors"><i class="fa fa-angle-double-right"></i>Mentors</a></li>
+                            <li><a href="/our-team"><i class="fa fa-angle-double-right"></i>Team</a></li>
+                            <li><a href="/contact"><i class="fa fa-angle-double-right"></i>Contact</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <h5>Quick links</h5>
+                        <ul class="list-unstyled quick-links">
+                            <li><a href="/art-exhibition"><i class="fa fa-angle-double-right"></i>Exhibition</a></li>
+                            <li><a href="/workshop"><i class="fa fa-angle-double-right"></i>Workshop</a></li>
+                            <li><a href="/cultural-program"><i class="fa fa-angle-double-right"></i>Cultural Program</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <h5>Events</h5>
+                        <ul class="list-unstyled quick-links">
+                            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Privacy Policy</a>
+                            </li>
+                            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Term and
+                                    Condition</a></li>
+                            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Disclaimer</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+                        <ul class="list-unstyled list-inline social text-center">
+                            <li class="list-inline-item"><a target="_blank" href="https://facebook.com/provaswito.org"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            
+                            <li class="list-inline-item"><a target="_blank" href="https://www.google.com/maps/place/Provaswito+Academy+of+Art+and+Culture/@23.7887266,87.3681024,14z/data=!4m8!1m2!2m1!1sprovaswito!3m4!1s0x39f75de12c9c8ab7:0x3380521acfd18943!8m2!3d23.7788706!4d87.3997126"><i
+                                        class="fa fa-map-marker"></i></a></li>
+                            <li class="list-inline-item"><a target="_blank" href="/contact" target="_blank"><i
+                                        class="fa fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+                    </hr>
+                </div>
+               
+            </div>
+
+        </section>
+        <div class="no-gutters social-container text-light">
+            <div style="text-align: center; padding:3px; background: #09634e;" >
+                    &copy <a style="color:white" href="https://provaswito.org">Provaswito.org</a> All right Reversed. Developed and
+                    Maintained by <a href="#" style="color:white">Sumanta</a>
+            </div>
+
+        </div>
+    </footer> <a id="myBtn" href="#toppointer" title="Go to top"
+  ><i class="fa fa-angle-up"></i
+></a>
+<script src="front/js/jquery.js"></script>
+<script src="front/js/owl.carousel.js"></script>
+<script src="front/js/bootstrap-4-latest.min.js"></script>
+<script src="front/js/maugallery.js"></script>
+<script src="front/js/scripts.js"></script>
+<script src="js/bootstrapValidator.min.js"></script>
+<script src="js/jquery-confirm.min.js"></script>
+
+<script>
+  $(document).ready(function () {
+    $("#all").click(function () {
+      $(".newscover").show(1000);
+      $(".exhibition").show(1000);
+      $(".workshop").show(1000);
+      $(".cultural").show(1000);
+      $(".event").show(1000);
+    });
+
+    $("#exhibition").click(function () {
+      $(".newscover").hide(1000);
+      $(".exhibition").show(1000);
+      $(".workshop").hide(1000);
+      $(".cultural").hide(1000);
+      $(".event").hide(1000);
+    });
+
+    $("#workshop").click(function () {
+      $(".newscover").hide(1000);
+      $(".exhibition").hide(1000);
+      $(".workshop").show(1000);
+      $(".cultural").hide(1000);
+      $(".event").hide(1000);
+    });
+
+    $("#cultural").click(function () {
+      $(".newscover").hide(1000);
+      $(".exhibition").hide(1000);
+      $(".workshop").hide(1000);
+      $(".cultural").show(1000);
+      $(".event").hide(1000);
+    });
+
+    $("#news").click(function () {
+      $(".newscover").show(1000);
+      $(".exhibition").hide(1000);
+      $(".workshop").hide(1000);
+      $(".cultural").hide(1000);
+      $(".event").hide(1000);
+    });
+    $("#event").click(function () {
+      $(".event").show(1000);
+      $(".exhibition").hide(1000);
+      $(".workshop").hide(1000);
+      $(".cultural").hide(1000);
+      $(".newscover").hide(1000);
+    });
+    ///Gallery Button---------------------
+
+    $("#forgetlink").click(function () {
+      $("#loginModel").modal("hide");
+    });
+    $("#owl-demo").owlCarousel({
+      navigation: true, // Show next and prev buttons
+      slideSpeed: 300,
+      paginationSpeed: 400,
+      singleItem: true,
+      lazyLoad: true,
+      navigation: true,
+      autoPlay: 5000,
+      loop: true,
+      autoplayHoverPause: true,
+      nav: true,
+      items: 3,
+      navigationText: [
+        '<i class="fa fa-angle-left fa-3x" aria-hidden="true"></i>',
+        '<i class="fa fa-angle-right fa-3x" aria-hidden="true"></i>',
+      ],
+    });
+  });
+
+  var mybutton = document.getElementById("myBtn");
+  window.onscroll = function () {
+    if (
+      document.body.scrollTop > 20 ||
+      document.documentElement.scrollTop > 20
+    ) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  };
+
+  $(document).ready(function () {
+    $('a[href*="#"]')
+      // Remove links that don't actually link to anything
+      .not('[href="#"]')
+      .not('[href="#0"]')
+      .click(function (event) {
+        // On-page links
+        if (
+          location.pathname.replace(/^\//, "") ==
+            this.pathname.replace(/^\//, "") &&
+          location.hostname == this.hostname
+        ) {
+          // Figure out element to scroll to
+          var target = $(this.hash);
+          target = target.length
+            ? target
+            : $("[name=" + this.hash.slice(1) + "]");
+          // Does a scroll target exist?
+          if (target.length) {
+            // Only prevent default if animation is actually gonna happen
+            event.preventDefault();
+            $("html, body").animate(
+              {
+                scrollTop: target.offset().top,
+              },
+              1000,
+              function () {
+                // Callback after animation
+                // Must change focus!
+                var $target = $(target);
+                $target.focus();
+                if ($target.is(":focus")) {
+                  // Checking if the target was focused
+                  return false;
+                } else {
+                  $target.attr("tabindex", "-1"); // Adding tabindex for elements not focusable
+                  $target.focus(); // Set focus again
+                }
+              }
+            );
+          }
+        }
+      });
+  });
+</script>
+  </body>
+</html>
