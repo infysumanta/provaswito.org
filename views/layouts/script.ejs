@@ -1,0 +1,140 @@
+<a id="myBtn" href="#toppointer" title="Go to top"
+  ><i class="fa fa-angle-up"></i
+></a>
+<script src="front/js/jquery.js"></script>
+<script src="front/js/owl.carousel.js"></script>
+<script src="front/js/bootstrap-4-latest.min.js"></script>
+<script src="front/js/maugallery.js"></script>
+<script src="front/js/scripts.js"></script>
+<script src="js/bootstrapValidator.min.js"></script>
+<script src="js/jquery-confirm.min.js"></script>
+
+<script>
+  $(document).ready(function () {
+    $("#all").click(function () {
+      $(".newscover").show(1000);
+      $(".exhibition").show(1000);
+      $(".workshop").show(1000);
+      $(".cultural").show(1000);
+      $(".event").show(1000);
+    });
+
+    $("#exhibition").click(function () {
+      $(".newscover").hide(1000);
+      $(".exhibition").show(1000);
+      $(".workshop").hide(1000);
+      $(".cultural").hide(1000);
+      $(".event").hide(1000);
+    });
+
+    $("#workshop").click(function () {
+      $(".newscover").hide(1000);
+      $(".exhibition").hide(1000);
+      $(".workshop").show(1000);
+      $(".cultural").hide(1000);
+      $(".event").hide(1000);
+    });
+
+    $("#cultural").click(function () {
+      $(".newscover").hide(1000);
+      $(".exhibition").hide(1000);
+      $(".workshop").hide(1000);
+      $(".cultural").show(1000);
+      $(".event").hide(1000);
+    });
+
+    $("#news").click(function () {
+      $(".newscover").show(1000);
+      $(".exhibition").hide(1000);
+      $(".workshop").hide(1000);
+      $(".cultural").hide(1000);
+      $(".event").hide(1000);
+    });
+    $("#event").click(function () {
+      $(".event").show(1000);
+      $(".exhibition").hide(1000);
+      $(".workshop").hide(1000);
+      $(".cultural").hide(1000);
+      $(".newscover").hide(1000);
+    });
+    ///Gallery Button---------------------
+
+    $("#forgetlink").click(function () {
+      $("#loginModel").modal("hide");
+    });
+    $("#owl-demo").owlCarousel({
+      navigation: true, // Show next and prev buttons
+      slideSpeed: 300,
+      paginationSpeed: 400,
+      singleItem: true,
+      lazyLoad: true,
+      navigation: true,
+      autoPlay: 5000,
+      loop: true,
+      autoplayHoverPause: true,
+      nav: true,
+      items: 3,
+      navigationText: [
+        '<i class="fa fa-angle-left fa-3x" aria-hidden="true"></i>',
+        '<i class="fa fa-angle-right fa-3x" aria-hidden="true"></i>',
+      ],
+    });
+  });
+
+  var mybutton = document.getElementById("myBtn");
+  window.onscroll = function () {
+    if (
+      document.body.scrollTop > 20 ||
+      document.documentElement.scrollTop > 20
+    ) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  };
+
+  $(document).ready(function () {
+    $('a[href*="#"]')
+      // Remove links that don't actually link to anything
+      .not('[href="#"]')
+      .not('[href="#0"]')
+      .click(function (event) {
+        // On-page links
+        if (
+          location.pathname.replace(/^\//, "") ==
+            this.pathname.replace(/^\//, "") &&
+          location.hostname == this.hostname
+        ) {
+          // Figure out element to scroll to
+          var target = $(this.hash);
+          target = target.length
+            ? target
+            : $("[name=" + this.hash.slice(1) + "]");
+          // Does a scroll target exist?
+          if (target.length) {
+            // Only prevent default if animation is actually gonna happen
+            event.preventDefault();
+            $("html, body").animate(
+              {
+                scrollTop: target.offset().top,
+              },
+              1000,
+              function () {
+                // Callback after animation
+                // Must change focus!
+                var $target = $(target);
+                $target.focus();
+                if ($target.is(":focus")) {
+                  // Checking if the target was focused
+                  return false;
+                } else {
+                  $target.attr("tabindex", "-1"); // Adding tabindex for elements not focusable
+                  $target.focus(); // Set focus again
+                }
+              }
+            );
+          }
+        }
+      });
+  });
+</script>
