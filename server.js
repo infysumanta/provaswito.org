@@ -2,6 +2,8 @@ const express = require("express");
 const path = require("path");
 const app = express();
 
+const PORT = process.env.PORT;
+
 app.set("view engine", "ejs");
 app.use(express.static("public"));
 app.get("/", function (_req, res) {
@@ -26,6 +28,6 @@ app.get("/news-paper-cover", function (_req, res) {
   res.render("news-paper-cover");
 });
 
-app.listen(8001, () => {
+app.listen(PORT, () => {
   console.log("Listening on Port 5000");
 });
